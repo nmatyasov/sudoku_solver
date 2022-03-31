@@ -1,0 +1,37 @@
+.btnContainer {
+  padding: 20px;
+}
+.buttons {
+  font-size: 20px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btnSolve {
+  background-color: orange;
+  margin: 0px 20px;
+}
+
+.btnSolve:hover {
+  background-color: rgb(247, 231, 7);
+}
+
+.btnCheck {
+  background-color: aqua;
+  margin: 0px 0px 20px;
+}
+
+.btnCheck:hover {
+  background-color: rgb(7, 199, 247);
+}
+
+.btnReset {
+  background-color: tomato;
+  margin: 0px 20px;
+}
+
+.btnReset:hover {
+  background-color: rgb(255, 0, 0);
+}

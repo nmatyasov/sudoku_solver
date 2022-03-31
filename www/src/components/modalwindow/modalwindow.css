@@ -1,0 +1,43 @@
+.modal__window {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.25);
+  animation-name: appear;
+  animation-duration: 300ms;
+}
+
+.modal__window.active {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.modal__content {
+  padding: 20px;
+  background-color: transparent;
+  width: auto;
+  transition: 0.4s all;
+  height: auto;
+  align-items: center;
+  text-align: center;
+}
+
+.modal__content.active {
+  transform: scale(1);
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
